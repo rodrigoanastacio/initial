@@ -1,0 +1,20 @@
+# Package Managers
+node_modules
+yarn.lock
+
+# Production
+/public
+/build
+/dist
+
+# Others
+.vscode
+.cache
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+### macOS
+.DS_Store
