@@ -7,11 +7,7 @@
 @import "abstract/z-index";
 
 :root {
-  @each $name, $color in $webfatorial-colors {
-    --color-#{$name}: #{$color};
-  }
-
-  @each $name, $color in $dpw-colors {
+  @each $name, $color in $site-colors {
     --color-#{$name}: #{$color};
   }
 
